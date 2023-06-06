@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="db_PMTPModelStoreContainer" CdmEntityContainer="db_PMTPEntities">
+    <EntitySetMapping Name="Table">
+      <EntityTypeMapping TypeName="db_PMTPModel.Table">
+        <MappingFragment StoreEntitySet="Table">
+          <ScalarProperty Name="Empl_ID" ColumnName="Empl_ID" />
+          <ScalarProperty Name="PersAdi" ColumnName="PersAdi" />
+          <ScalarProperty Name="Tarihi" ColumnName="Tarihi" />
+          <ScalarProperty Name="maas" ColumnName="maas" />
+          <ScalarProperty Name="Komisyon" ColumnName="Komisyon" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
